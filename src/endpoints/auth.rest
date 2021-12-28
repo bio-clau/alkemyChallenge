@@ -1,0 +1,33 @@
+POST http://localhost:3000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "Fito",
+    "email": "rodolfo.rodriguez@gmail.com",
+    "password": "123456789"
+}
+
+###
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "Tropura",
+    //"password": "a1s2d3f4"
+}
+
+###
+POST http://localhost:3000/api/auth/forgotpass
+Content-Type: application/json
+
+{
+    "email": "rodolfo.rodriguez@gmail.com"
+}
+
+###
+PUT http://localhost:3000/api/auth/resetpass/4f4462f798ce121d15c4813d0c3b35c270152a57
+Content-Type: application/json
+
+{
+    "password": "a1s2d3f4"
+}
