@@ -13,7 +13,7 @@ Content-Type: application/json
 
 {
     "username": "Tropura",
-    //"password": "a1s2d3f4"
+    "password": "a1s2d3f4"
 }
 
 ###

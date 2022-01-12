@@ -1,0 +1,21 @@
+GET http://localhost:3000/api/p-char/all
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxYmU2OGMyYTU5NGUxODQwN2E1NDA2OSIsImlhdCI6MTY0MjAwMDEzMSwiZXhwIjoxNjQyMDAxOTMxfQ.YEpIDmVfLkY3TM53v7QOXjz4s7UXk4Y-oypF-XXBG18
+
+###
+
+GET http://localhost:3000/api/p-char/getChar/61dde6215c0187764eb2728a
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxYmU2OGMyYTU5NGUxODQwN2E1NDA2OSIsImlhdCI6MTY0MTk0MjczOCwiZXhwIjoxNjQxOTQ0NTM4fQ.O_O_ycj-oN4iuAj6WJQfMs02P41_RBS1fBg3vwbt7jY
+
+###
+PUT http://localhost:3000/api/p-char/editChar/61dde6215c0187764eb2728a
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxYmU2OGMyYTU5NGUxODQwN2E1NDA2OSIsImlhdCI6MTY0MTk0NTAzOSwiZXhwIjoxNjQxOTQ2ODM5fQ.dzKrjdaSslGRcf4e-bbBDnBQ3An-JjWFHKoc9tEggfU
+
+{
+    "name": "foquita",
+    "age": 39,
+    "weight": 120,
+    "charHistory": "Esta foquita nació en San juan y se cagó de calor",
+    "movies": ["foca en san juan: la secuela"],
+    "series": ["foca en san juan", "sobreviviendo al calor"]
+}
